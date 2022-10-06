@@ -11,6 +11,12 @@
 		2DBB446A28ED5DAD0063D347 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBB446928ED5DAD0063D347 /* ContentView.swift */; };
 		2DBB446C28ED5DAE0063D347 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DBB446B28ED5DAE0063D347 /* Assets.xcassets */; };
 		2DBB446F28ED5DAE0063D347 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DBB446E28ED5DAE0063D347 /* Preview Assets.xcassets */; };
+		2DBB447628ED5DCA0063D347 /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBB447528ED5DCA0063D347 /* ColorModel.swift */; };
+		2DBB447828ED60240063D347 /* ColorCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBB447728ED60240063D347 /* ColorCollectionView.swift */; };
+		2DBB447A28ED61BF0063D347 /* ColorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBB447928ED61BF0063D347 /* ColorViewModel.swift */; };
+		2DBB447C28ED64C50063D347 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBB447B28ED64C50063D347 /* ColorView.swift */; };
+		2DBB447F28ED69B30063D347 /* DropViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBB447E28ED69B30063D347 /* DropViewDelegate.swift */; };
+		2DBB448128ED90460063D347 /* AddColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBB448028ED90460063D347 /* AddColorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		2DBB446928ED5DAD0063D347 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2DBB446B28ED5DAE0063D347 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DBB446E28ED5DAE0063D347 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2DBB447528ED5DCA0063D347 /* ColorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
+		2DBB447728ED60240063D347 /* ColorCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCollectionView.swift; sourceTree = "<group>"; };
+		2DBB447928ED61BF0063D347 /* ColorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewModel.swift; sourceTree = "<group>"; };
+		2DBB447B28ED64C50063D347 /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+		2DBB447E28ED69B30063D347 /* DropViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropViewDelegate.swift; sourceTree = "<group>"; };
+		2DBB448028ED90460063D347 /* AddColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddColorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +64,11 @@
 			isa = PBXGroup;
 			children = (
 				2DBB446728ED5DAD0063D347 /* Swift_Practice_177_Drag_And_Drop_Color_CollectionApp.swift */,
-				2DBB446928ED5DAD0063D347 /* ContentView.swift */,
+				2DBB448228EDC9F30063D347 /* View */,
+				2DBB449E28EE675C0063D347 /* ViewModel */,
+				2DBB449D28EE67500063D347 /* Model */,
+				2DBB449F28EE676B0063D347 /* Delegate */,
+				2DBB447D28ED699F0063D347 /* New Group */,
 				2DBB446B28ED5DAE0063D347 /* Assets.xcassets */,
 				2DBB446D28ED5DAE0063D347 /* Preview Content */,
 			);
@@ -65,6 +81,48 @@
 				2DBB446E28ED5DAE0063D347 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2DBB447D28ED699F0063D347 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		2DBB448228EDC9F30063D347 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2DBB446928ED5DAD0063D347 /* ContentView.swift */,
+				2DBB448028ED90460063D347 /* AddColorView.swift */,
+				2DBB447728ED60240063D347 /* ColorCollectionView.swift */,
+				2DBB447B28ED64C50063D347 /* ColorView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2DBB449D28EE67500063D347 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2DBB447528ED5DCA0063D347 /* ColorModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2DBB449E28EE675C0063D347 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2DBB447928ED61BF0063D347 /* ColorViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2DBB449F28EE676B0063D347 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				2DBB447E28ED69B30063D347 /* DropViewDelegate.swift */,
+			);
+			path = Delegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +195,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DBB448128ED90460063D347 /* AddColorView.swift in Sources */,
+				2DBB447C28ED64C50063D347 /* ColorView.swift in Sources */,
 				2DBB446A28ED5DAD0063D347 /* ContentView.swift in Sources */,
+				2DBB447F28ED69B30063D347 /* DropViewDelegate.swift in Sources */,
 				2DBB446828ED5DAD0063D347 /* Swift_Practice_177_Drag_And_Drop_Color_CollectionApp.swift in Sources */,
+				2DBB447A28ED61BF0063D347 /* ColorViewModel.swift in Sources */,
+				2DBB447828ED60240063D347 /* ColorCollectionView.swift in Sources */,
+				2DBB447628ED5DCA0063D347 /* ColorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
